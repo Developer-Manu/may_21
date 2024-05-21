@@ -1,3 +1,4 @@
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class ForClass {
@@ -8,7 +9,7 @@ public class ForClass {
             System.out.println("The factorial of "+a+" is:");
             int fact = 1;
             for(int i=1;i<=a;i++){
-                fact = fact*i;
+                fact *= i;
             }
             System.out.println(fact);
         }
